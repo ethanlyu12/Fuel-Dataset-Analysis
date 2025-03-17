@@ -38,12 +38,18 @@ Fuel level tracking data:
 ---
 
 ## Problem Description
+A gas station purchases fuel in bulk (thousands of liters) to meet the needs of its customers. Each gas station may offer different fuel types (regular gas, premium gas, diesel), with each type stored in one or more underground tanks. The number and capacity of these tanks are influenced by factors such as available space, city regulations, proximity to suppliers, and demand.
+At any given time, a gas station might carry tens of thousands of liters of fuel. Decisions regarding fuel replenishment frequency and fuel replenishment quantity are crucial for profitability and operational efficiency. Frequent replenishments in small quantities reduce cash tied up in inventory but may miss out on quantity discounts offered by suppliers. Conversely, larger, less frequent deliveries often qualify for discounts but require higher upfront costs (see Figure 1). Note that quantity discounts are applied separately for each gas station location and fuel type; purchases cannot be aggregated across locations or fuel types.
 
 Gas stations purchase fuel in bulk to meet customer demands. Inventory management affects operational efficiency and profitability. Stations must balance:
 - Frequent small deliveries (lower upfront cost, no bulk discounts)
 - Large, less frequent deliveries (higher initial cost, bulk purchase discounts)
 
+![image](https://github.com/user-attachments/assets/5b0d0f85-f947-4d30-b66a-702c14a5ee56)
+
+
 ### Quantity Discounts
+The supplier offers the following quantity discounts:
 | Purchase Quantity (liters) | Discount per Liter (CAD) |
 |----------------------------|--------------------------|
 | 0 - 15,000                | 0                        |
@@ -82,23 +88,6 @@ The project aims to optimize fuel inventory management by addressing:
 - **Assess potential benefits of increasing tank capacity**
 - **Estimate cost-benefit over a 5-year period considering inflation**
 - **Identify stations where additional tanks would be most beneficial**
-
----
-
-## Group Report Requirements
-Teams must submit:
-- A Python notebook (`.ipynb`) containing:
-  - **Code**: Well-documented with meaningful comments
-  - **Data Processing**: Cleaning, merging, and preprocessing steps
-  - **Analysis & Visualizations**: Insights derived from data
-  - **Business Questions Addressed**: Detailed responses
-  - **Report Quality**: Clear structure and logical reasoning
-- **Evaluation Criteria**:
-  - Code clarity and logical soundness
-  - Use of professional visualizations
-  - Academic integrity (original work, proper citations)
-
-The analysis will be validated by running the submitted code.
 
 ---
 
