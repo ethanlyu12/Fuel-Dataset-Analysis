@@ -45,7 +45,7 @@ Gas stations purchase fuel in bulk to meet customer demands. Inventory managemen
 - Frequent small deliveries (lower upfront cost, no bulk discounts)
 - Large, less frequent deliveries (higher initial cost, bulk purchase discounts)
 
-![image](https://github.com/user-attachments/assets/5b0d0f85-f947-4d30-b66a-702c14a5ee56)
+![image](https://github.com/user-attachments/assets/3772cc26-37c5-44b1-94dc-0b5cbfb52381)
 
 
 ### Quantity Discounts
